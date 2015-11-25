@@ -95,14 +95,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .container{
+  width: 100%;
   margin: 0;
-  min-width: 100%;
 }
-
 
 body{
   background-color: rgba(0,0,0,0.03);
 }
+
+/* ##########   header   ########## */
+
+header ul li{
+  font-size: 0.8em;
+}
+
 
 /* ##########   Navigation   ##########*/
 
@@ -121,25 +127,43 @@ body{
     border-color: rgba(252, 2, 82, 0.7);
   }
 
+  #devenez_hote{
+    border: 3px solid white;
+    border-radius: 2px;
+  }
+
+  #devenez_hote:hover{
+    background-color: rgba(255,255,255,0.1);
+  }
+
 
 /* ##########   Logo   ##########*/
 
+#logo_blanc{
+  width: 100px;
+  margin-left: 15px;
+  float: left;
+}
 
+#logo{
+  width: 100px;
+  margin: auto;
+}
 
-/* ##########   Image de fond   ########## */
+#logo_rouge{
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  margin: auto;
 
-#paris{
-  min-height: 450px;
-  min-width: 800px;
 }
 
 
 /* ##########   Titres   ########## */
 
 
-
 /* ##########   Saisies de texte   ########## */
-
 
 
 /* ##########   Buttons   ########### */
@@ -150,8 +174,6 @@ body{
 
 footer{
   background-color: rgba(0,0,0,0.75);
-  width: 100%;
-  height: 400px;
 }
 
 footer a, footer a:hover, footer a:visited, footer a:focus{
