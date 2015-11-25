@@ -95,19 +95,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .container{
-  width: 100%;
-  margin: 0;
+  width: auto;
 }
 
 body{
   background-color: rgba(0,0,0,0.03);
+  min-width: 100%;
 }
 
 /* ##########   header   ########## */
 
-header ul li{
-  font-size: 0.8em;
+header {
+    text-align: center;
+    background-image: url(../img/paris.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 550px;
 }
+
 
 
 /* ##########   Navigation   ##########*/
