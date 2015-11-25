@@ -110,7 +110,29 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 550px;
+    height: 450px;
+}
+
+/* bouton xs*/
+#rechercher_header_xs{
+  height: 45px;
+  border-radius: 0;
+  background-color: rgb(252, 2, 82);
+  border-color: rgb(252, 2, 82);
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+/* barre de recherche xs */
+
+#recherche_xs{
+  height: 45px;
+  border-radius: 0;
+  color: grey;
+  text-align: center;
+  font-family: sans-serif;
+  border: 0;
+  margin-top: 30px;
 }
 
 
@@ -170,7 +192,7 @@ header {
 /* header */
 
 header h1{
-  margin-top: 190px;
+  margin-top: 170px;
   font-size: 2.2em;
 }
 
@@ -245,8 +267,71 @@ footer p{
   margin-top: 80px;
 }
 
-/* Small devices (tablets, 768px and up) */
+
+/* ########################################################################
+###########################################################################
+                  Small devices (tablets, 768px and up)
+###########################################################################                  ###########################################################################*/
+
 @media (min-width: 768px) {
+
+  /* ##########   header   ########## */
+
+  header {
+      text-align: center;
+      background-image: url(../img/paris.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      height: 600px;
+  }
+
+  /* bouton emploi */
+
+  #emploi{
+    font-weight: bold;
+    font-size: 1em;
+    width: 180px;
+    padding-left: 30px;
+    padding-top: 13px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0.5);
+    border: 0;
+  }
+
+  /* saisie de texte */
+
+  .searchbar{
+    margin-top: 160px;
+  }
+
+  header input, header select{
+    height: 45px;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+#rechercher_header{
+  height: 45px;
+  margin-left: -3px;
+  margin-right: -3px;
+  border-radius: 0;
+  margin-top: -1px;
+  background-color: rgb(252, 2, 82);
+  border-color: rgb(252, 2, 82);
+}
+
+#emploi:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+
 
   /* ##########   Titres   ########## */
 
