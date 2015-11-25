@@ -50,10 +50,11 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-          <header>
-               <div class="row">
+<div id="container1" class="container">
+
                     <!-- Navigation -->
                     <nav class="navbar navbar-default navbar-fixed-top">
+<div id="logo"><a href="#"><img id="logo_rouge" class="visible-xs" src="img/airbnbrouge.png" alt="Logo Airbnb"></a></div>
                          <div id="collapse" class="container">
                               <!-- Brand and toggle get grouped for better mobile display -->
                               <div class="navbar-header page-scroll">
@@ -68,6 +69,9 @@
 
                               <!-- Collect the nav links, forms, and other content for toggling -->
                               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                <a href="#"><img id="logo_blanc" class="hidden-xs" src="img/airbnb.png" alt="Logo Airbnb"></a>
+
                                    <ul class="nav navbar-nav navbar-right">
                                         <li class="hidden">
                                              <a href="#page-top"></a>
@@ -91,23 +95,128 @@
                          <!-- /.container-fluid -->
                     </nav>
 
-                    <img id="paris" class="img-responsive" src="img/paris.jpg" alt="Photo de Paris la nuit" />
+                          <!-- header -->
+                    <header>
+                        <div class="container">
+                            <div class="row">
+                                <h1>Bienvenue à la maison</h1>
+                                <h2>Louez des logements uniques auprès d'hôtes locaux dans plus de 190 pays.</h2>
+                                <a href="#services" class="page-scroll btn btn-xl">Mode d'emploi</a>
+                              </div>
+                            </div>
 
-               </div>
+                                <div class="hero__content-footer hide-sm">
+      <div class="col-sm-12">
 
-          </header>
+
+<div id="searchbar">
+  <div class="searchbar">
+    <form id="searchbar-form" action="/s">
+
+      <div class="searchbar__input-wrapper">
+
+        <label class="searchbar__location  hidden-xs">
+          <input
+            id="location"
+            type="text"
+            class="input-large input-contrast"
+            autocomplete="off"
+            name="location"
+            placeholder="Où voulez-vous aller ?" />
+        </label>
+
+        <label class="searchbar__checkin  hidden-xs">
+          <input
+            id="arrivee"
+            type="text"
+            class="checkin input-large input-contrast"
+            name="checkin"
+            placeholder="Arrivée" />
+        </label>
+
+        <label class="searchbar__checkout  hidden-xs">
+          <input
+            id="depart"
+            type="text"
+            class="checkout input-large input-contrast"
+            name="checkout"
+            placeholder="Départ" />
+        </label>
+
+        <input
+          id="recherche_xs"
+          type="text"
+          class="col-xs-9 col-xs-offset-1 hidden-sm hidden-md hidden-lg"
+          name="checkin"
+          placeholder="Où voulez-vous aller?" />
+          <button
+            id="rechercher_header_xs"
+            type="submit"
+            class="searchbar__submit btn btn-primary col-xs-1 hidden-sm hidden-md hidden-lg"></button>
+
+        <label class="searchbar__guests hidden-xs">
+          <div class="select select-large">
+            <select id="guests" name="guests">
+              <option value="1">1 voyageur</option>
+<option value="2">2 voyageurs</option>
+<option value="3">3 voyageurs</option>
+<option value="4">4 voyageurs</option>
+<option value="5">5 voyageurs</option>
+<option value="6">6 voyageurs</option>
+<option value="7">7 voyageurs</option>
+<option value="8">8 voyageurs</option>
+<option value="9">9 voyageurs</option>
+<option value="10">10 voyageurs</option>
+<option value="11">11 voyageurs</option>
+<option value="12">12 voyageurs</option>
+<option value="13">13 voyageurs</option>
+<option value="14">14 voyageurs</option>
+<option value="15">15 voyageurs</option>
+<option value="16">16+ voyageurs</option>
+            </select>
+          </div>
+        </label>
+
+
+
+      <button
+        id="rechercher_header"
+        type="submit"
+        class="searchbar__submit btn btn-primary btn-large hidden-xs">
+        Rechercher
+      </button>
+  </div>
+
+
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+                    </header>
+
+
+                  </div>  <!-- Fin premier div container -->
+
 
           <!-- Section Appartement -->
 
 
           <!-- Section Séjour -->
-          
+
 
      <!-- Footer -->
+
+     <div class="container">
+
+<div class="row">
      <footer>
 
-          <div class="container">
-               <div class="row row_footer">
+
+
+
                     <div class="col-xs-10 col-xs-offset-1 text-center">
                          <a href="#">À propos</a>
                          <a href="#">Carrières</a>
@@ -126,10 +235,14 @@
                          <p>&copy; Air bnb, Inc.</p>
                     </div>
 
-               </div>
-          </div>
+
+
 
      </footer>
+
+     </div>
+
+     </div>
 
      <!-- jQuery -->
      <script src="js/jquery.js"></script>
