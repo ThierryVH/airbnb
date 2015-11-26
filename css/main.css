@@ -204,7 +204,7 @@ header h2{
 
 #appartement h2{
   font-size: 1.2em;
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 #appartement h3{
@@ -217,19 +217,23 @@ header h2{
 
 #sejour h2{
   font-size: 1.9em;
+  color: grey;
+  margin-top: -150px;
 }
 
 #sejour h3{
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: normal;
+  color: grey;
 }
 
 /* titres photos */
 
 #amsterdam h3, #londres h3, #varsovie h3{
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bolder;
   color: #fff;
+  margin-top: 190px;
 }
 
 /* titres footer */
@@ -238,12 +242,59 @@ h6{
   color: #fff;
 }
 
-/* ##########   Saisies de texte   ########## */
+/* ##########   section appartement   ########## */
+
+#appartement_xs{
+  background-image: url(../img/appart.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+min-height: 400px;
+}
+
+/* bouton */
+
+#estimer-xs{
+  height: 45px;
+  border-radius: 0;
+  border: 0;
+  margin-top: 40px;
+  background-color: rgb(0, 149, 182);
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* ##########   section sejour  ########### */
 
 
-/* ##########   Buttons   ########### */
+#amsterdam{
+background-image: url(../img/amsterdam.png);
+height: 400px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
 
+#varsovie{
+  background-image: url(../img/varsovie.png);
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
+#londres{
+  background-image: url(../img/londres.png);
+  height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
 /* ##########   Footer   ########## */
 
@@ -304,7 +355,7 @@ footer p{
   /* saisie de texte */
 
   .searchbar{
-    margin-top: 160px;
+    margin-top: 100px;
   }
 
   header input, header select{
@@ -349,12 +400,12 @@ footer p{
   /* section appartement */
 
   #appartement h2{
-    font-size: 1.6em;
+    font-size: 1.15em;
     margin-top: 60px;
   }
 
   #appartement h3{
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: normal;
     margin-top: 40px;
   }
@@ -367,11 +418,144 @@ footer p{
     color: #fff;
   }
 
+
+
+/* ##########   section appartement   ########## */
+
+/* div */
+
+#contenu{
+  background-color: #fff;
+  margin-left: -15px;
+  height: 314px;
+  padding: 0 20px 0 20px;
+}
+
+ /* bouton */
+
+ #estimer-sm{
+   height: 45px;
+   border-radius: 2px;
+   border: 0;
+   background-color: rgb(0, 149, 182);
+   color: #fff;
+   font-weight: bold;
+   font-family: sans-serif;
+   margin-top: 20px;
+ }
+
+ /* ##########   section sejour   ########## */
+
+ #destinations{
+   height: 45px;
+   border:0;
+   border-radius:0;
+   font-weight: bold;
+   font-family: sans-serif;
+   background-color: rgba(0,0,0,0.1);
+   margin-top: 35px;
+ }
+
+ #destinations:hover{
+  background-color: rgba(0,0,0,0.2);
+ }
 }
 
 
 
 
+
+/* ########################################################################
+###########################################################################
+                  Medium devices (desktops, 992px and up)
+###########################################################################                  ###########################################################################*/
+
+@media (min-width: 992px) {
+  /* ##########   section appartement   ########## */
+
+  /* div */
+
+  #contenu{
+    background-color: #fff;
+    margin-left: -15px;
+    height: 411px;
+    padding: 0 20px 0 20px;
+  }
+
+   /* bouton */
+
+   #estimer-sm{
+     height: 45px;
+     border-radius: 2px;
+     border: 0;
+     background-color: rgb(0, 149, 182);
+     color: #fff;
+     font-weight: bold;
+     font-family: sans-serif;
+   }
+
+   /* section appartement */
+
+   #appartement h2{
+     font-size: 1.8em;
+     margin-top: 90px;
+   }
+
+   #appartement h3{
+     font-size: 1.3em;
+     font-weight: normal;
+     margin-top: 20px;
+   }
+
+
+}
+
+
+
+
+/* ########################################################################
+###########################################################################
+                  Larges devices (desktops, 1200px and up)
+###########################################################################                  ###########################################################################*/
+
+@media (min-width: 1200px) {
+  /* ##########   section appartement   ########## */
+
+  /* div */
+
+  #contenu{
+    background-color: #fff;
+    margin-left: -15px;
+    height: 500px;
+    padding: 0 20px 0 20px;
+  }
+
+   /* bouton */
+
+   #estimer-sm{
+     height: 45px;
+     border-radius: 2px;
+     border: 0;
+     background-color: rgb(0, 149, 182);
+     color: #fff;
+     font-weight: bold;
+     font-family: sans-serif;
+     margin-top: 40px;
+   }
+
+   /* section appartement */
+
+   #appartement h2{
+     font-size: 2em;
+     margin-top: 120px;
+   }
+
+   #appartement h3{
+     font-size: 1em;
+     font-weight: normal;
+     margin-top: 20px;
+   }
+}
 
 
 
