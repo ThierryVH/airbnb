@@ -299,7 +299,9 @@ background-size: cover;
 /* ##########   Footer   ########## */
 
 footer{
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.70);
+  height: 420px;
+  margin-top: -30px;
 }
 
 footer a, footer a:hover, footer a:visited, footer a:focus{
@@ -309,13 +311,31 @@ footer a, footer a:hover, footer a:visited, footer a:focus{
   text-decoration: none;
 }
 
-.row_footer{
-  margin-top: 30px;
-}
 
 footer p{
   color: grey;
   margin-top: 80px;
+}
+
+footer select{
+  height: 45px;
+  border: 0;
+  border-radius: 0;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#liens{
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#social_network{
+  margin-top: 40px;
+}
+
+#copy{
+  margin-top: -50px;
 }
 
 
@@ -458,6 +478,59 @@ footer p{
 
  #destinations:hover{
   background-color: rgba(0,0,0,0.2);
+ }
+
+ /* ##########   Footer   ########## */
+
+ footer{
+   background-color: rgba(0,0,0,0.70);
+   height: 600px;
+   margin-top: -30px;
+ }
+
+ footer a, footer a:hover, footer a:visited, footer a:focus{
+   font-family: sans-serif;
+   color: #fff;
+   margin: 5px;
+   text-decoration: none;
+ }
+
+
+ footer p{
+   color: #fff;
+   font-weight: bold;
+   font-family: sans-serif;
+   margin-top: 80px;
+ }
+
+ footer select{
+   height: 45px;
+   border: 0;
+   border-radius: 0;
+   width: 80%;
+   margin-bottom: 20px;
+   background-color: rgba(255,255,255,0.2);
+ }
+
+ #social_network{
+   margin-top: 40px;
+ }
+
+ #copy{
+   margin-top: -50px;
+ }
+
+ footer li{
+   list-style-type: none;
+   margin: 0;
+ }
+
+ h6{
+   margin-left: 40px;
+ }
+
+ footer a:hover{
+   text-decoration: underline;
  }
 }
 
